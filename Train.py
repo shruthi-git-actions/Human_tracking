@@ -16,7 +16,6 @@ import pickle
 import dask
 from dask_ml.metrics import accuracy_score
 import os, uuid
-from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient, __version__
 import json
 
 
