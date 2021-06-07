@@ -103,7 +103,7 @@ prediction=x.merge(pred_test_df)
 
 
 
-prediction.to_csv("/home/sato/sato_williot_ML/prediction/prediction_new.csv", single_file = True)
+prediction.to_csv("prediction_new.csv", single_file = True)
 
 
 print("end")
