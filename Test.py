@@ -19,13 +19,13 @@ import pickle
 
 main_df = dd.read_csv('test_data.csv')
 columns_req=pd.read_csv("column_list_new.csv")
-main_dff = dd.from_pandas(main_df, npartitions=7)
+#main_dff = dd.from_pandas(main_df, npartitions=7)
 
 
 # In[4]:
 
 
-df=main_dff[columns_req["Variable_list"]]
+df=main_df[columns_req["Variable_list"]]
 
 
 # In[5]:
